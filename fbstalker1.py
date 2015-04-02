@@ -15,10 +15,10 @@ import pytz
 from tzlocal import get_localzone
 import requests
 from termcolor import colored, cprint
-from pygraphml.GraphMLParser import *
-from pygraphml.Graph import *
-from pygraphml.Node import *
-from pygraphml.Edge import *
+from pygraphml import *
+from pygraphml.graph import *
+from pygraphml.node import *
+from pygraphml.edge import *
 
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
