@@ -37,6 +37,8 @@ h = httplib2.Http(".cache")
 
 facebook_username = ""
 facebook_password = ""
+# get access_token at https://developers.facebook.com/tools/access_token/
+facebook_access_token = ""
 
 global uid
 uid = ""
