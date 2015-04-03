@@ -33,7 +33,8 @@ chmod 777 /usr/bin/chromedriver
 
 sudo apt-get install python-setuptools
 sudo apt-get install python-pip
-sudo pip install pygraphml pytz tzlocal termcolor selenium requests --upgrade beautifulsoup4 
+sudo pip install pygraphml pytz tzlocal termcolor selenium requests==2.5.3 beautifulsoup4
+
 
 wget https://github.com/Fluffinko/osintstalker/raw/master/fbstalker1.py
 
