@@ -1978,46 +1978,58 @@ def options(arguments):
 
 def showhelp():
 
-	print ""
-	print "	MMMMMM$ZMMMMMDIMMMMMMMMNIMMMMMMIDMMMMMMM"
-	print "	MMMMMMNINMMMMDINMMMMMMMZIMMMMMZIMMMMMMMM"
-	print "	MMMMMMMIIMMMMMI$MMMMMMMIIMMMM8I$MMMMMMMM"
-	print "	MMMMMMMMIINMMMIIMMMMMMNIIMMMOIIMMMMMMMMM"
-	print "	MMMMMMMMOIIIMM$I$MMMMNII8MNIIINMMMMMMMMM"
-	print "	MMMMMMMMMZIIIZMIIIMMMIIIM7IIIDMMMMMMMMMM"
-	print "	MMMMMMMMMMDIIIIIIIZMIIIIIII$MMMMMMMMMMMM"
-	print "	MMMMMMMMMMMM8IIIIIIZIIIIIIMMMMMMMMMMMMMM"
-	print "	MMMMMMMMMMMNIIIIIIIIIIIIIIIMMMMMMMMMMMMM"
-	print "	MMMMMMMMM$IIIIIIIIIIIIIIIIIII8MMMMMMMMMM"
-	print "	MMMMMMMMIIIIIZIIIIZMIIIIIDIIIIIMMMMMMMMM"
-	print "	MMMMMMOIIIDMDIIIIZMMMIIIIIMMOIIINMMMMMMM"
-	print "	MMMMMNIIIMMMIIII8MMMMM$IIIZMMDIIIMMMMMMM"
-	print "	MMMMIIIZMMM8IIIZMMMMMMMIIIIMMMM7IIZMMMMM"
-	print "	MMM$IIMMMMOIIIIMMMMMMMMMIIIIMMMM8IIDMMMM"
-	print "	MMDIZMMMMMIIIIMMMMMMMMMMNIII7MMMMNIIMMMM"
-	print "	MMIOMMMMMNIII8MMMMMMMMMMM7IIIMMMMMM77MMM"
-	print "	MO$MMMMMM7IIIMMMMMMMMMMMMMIII8MMMMMMIMMM"
-	print "	MIMMMMMMMIIIDMMMMMMMMMMMMM$II7MMMMMMM7MM"
-	print "	MMMMMMMMMIIIMMMMMMMMMMMMMMMIIIMMMMMMMDMM"
-	print "	MMMMMMMMMII$MMMMMMMMMMMMMMMIIIMMMMMMMMMM"
-	print "	MMMMMMMMNIINMMMMMMMMMMMMMMMOIIMMMMMMMMMM"
-	print "	MMMMMMMMNIOMMMMMMMMMMMMMMMMM7IMMMMMMMMMM"
-	print "	MMMMMMMMNINMMMMMMMMMMMMMMMMMZIMMMMMMMMMM"
-	print "	MMMMMMMMMIMMMMMMMMMMMMMMMMMM8IMMMMMMMMMM"
-
 	print """
-	
+                                        ,   ,  
+                                        $,  $,     ,            
+                                        "ss.$ss. .s'     
+                                ,     .ss$$$$$$$$$$s,              
+                                $. s$$$$$$$$$$$$$$`$$Ss       
+                                "$$$$$$$$$$$$$$$$$$o$$$       ,       
+                               s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s  
+                              s$$$$$$$$$"$$$$$$""'"$$$$$$"$$$$$,     
+                              s$$$$$$$$$$s""$$$$ssssss"$$$$$$$$"   
+                             s$$$$$$$$$$'         `"'"ss"$"$s""      
+                             s$$$$$$$$$$,              `"'"'"$  .s$$s
+                             s$$$$$$$$$$$$s,...               `s$$'  `
+                         `ssss$$$$$$$$$$$$$$$$$$$$####s.     .$$"$.   , s-
+                           `""'"$$$$$$$$$$$$$$$$$$$$#####$$$$$$"     $.$'
+                                 "$$$$$$$$$$$$$$$$$$$$$####s""     .$$$|
+                                  "$$$$$$$$$$$$$$$$$$$$$$$$##s    .$$" $ 
+                                   $$""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"   `
+                                  $$"  "$"$$$$$$$$$$$$$$$$$$$$S"'""' 
+                             ,   ,"     '  $$$$$$$$$$$$$$$$####s  
+                             $.          .s$$$$$$$$$$$$$$$$$####"
+                 ,           "$s.   ..ssS$$$$$$$$$$$$$$$$$$$####"
+                 $           .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####"
+                 Ss     ..sS$$$$$$$$$$$$$$$$$$$$$$$$$$$######""
+                  "$$sS$$$$$$$$$$$$$$$$$$$$$$$$$$$########"
+           ,      s$$$$$$$$$$$$$$$$$$$$$$$$#########""'
+           $    s$$$$$$$$$$$$$$$$$$$$$#######""'      s'         ,
+           $$..$$$$$$$$$$$$$$$$$$######"'       ....,$$....    ,$
+            "$$$$$$$$$$$$$$$######"' ,     .sS$$$$$$$$$$$$$$$$s$$
+              $$$$$$$$$$$$#####"     $, .s$$$$$$$$$$$$$$$$$$$$$$$$s.
+   )          $$$$$$$$$$$#####'      `$$$$$$$$$###########$$$$$$$$$$$.
+  ((          $$$$$$$$$$$#####       $$$$$$$$###"       "####$$$$$$$$$$ 
+  ) \         $$$$$$$$$$$$####.     $$$$$$###"             "###$$$$$$$$$   s'
+ (   )        $$$$$$$$$$$$$####.   $$$$$###"                ####$$$$$$$$s$$'
+ )  ( (       $$"$$$$$$$$$$$#####.$$$$$###'   -Fluffinko    .###$$$$$$$$$$"
+ (  )  )   _,$"   $$$$$$$$$$$$######.$$##'                .###$$$$$$$$$$
+ ) (  ( \.         "$$$$$$$$$$$$$#######,,,.          ..####$$$$$$$$$$$"
+(   )$ )  )        ,$$$$$$$$$$$$$$$$$$####################$$$$$$$$$$$"        
+(   ($$  ( \     _sS"  `"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S$$,       
+ )  )$$$s ) )  .      .   `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"'  `$$   
+  (   $$$Ss/  .$,    .$,,s$$$$$$##S$$$$$$$$$$$$$$$$$$$$$$$$S""        ' 
+    \)_$$$$$$$$$$$$$$$$$$$$$$$##"  $$        `$$.        `$$.
+        `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$
+            `"'""'"'""'""''         '           '           '
+	"""
+	print """
 	#####################################################
 	#                  fbStalker.py                     #
 	#               [by Trustwave Spiderlabs]	    #
-	#		[modified by Fluffinko  ]           #
+	#		[ updated  by Fluffinko ]           #
 	#####################################################
-	Usage: python fbStalker.py [OPTIONS]
-
-	[OPTIONS]
-
-	-user [Facebook Username] [Filename of report]
-	exaplme: fbStalker.py -user test reportname
+	Usage: python fbStalker.py -user [Facebook Username] [Filename of report]
 	"""
 
 if __name__ == '__main__':
