@@ -3,9 +3,6 @@ Python Scripts
 fbStalker - OSINT tool for Facebook - Based on Facebook Graph and other stuff
 geoStalker - OSINT tool for Geolocation related sources - Flickr, Instagram, Twitter, Wigle. The userIDs found is used to find social media accounts across other networks like Facebook, Youtube, Instagram, Google+, Linkedin and Google Search
 
-All updates/changes to the code will be posted via twitter account @osintstalker. 
-Please follow this account for updates and improvements to the code.
-
 ------------------------------------------------------------------------------------------ 
 Presentation Slides of our talk at HackInTheBox Kuala Lumpur 2013.
 http://conference.hitb.org/hitbsecconf2013kul/materials/D2T3%20-%20Keith%20Lee%20and%20Jonathan%20Werrett%20-%20Facebook%20OSINT.pdf
@@ -18,19 +15,22 @@ https://www.youtube.com/watch?v=qUqT9Ct2kg0&feature=youtu.be
 ------------------------------------------------------------------------------------------ 
 Instructions for FBstalker
 Install Google Chrome and ChromeDriver on Kali Linux
+
 If you are using 32 bit Kali Linux (run uname -r to find out)
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+dpkg -i google-chrome-stable_current_i386.deb
 
-wget https://chromedriver.googlecode.com/files/chromedriver_linux32_23.0.1240.0.zip
-unzip chromedriver_linux32_23.0.1240.0.zip
+wget http://chromedriver.storage.googleapis.com/2.14/chromedriver_linux32.zip
+unzip chromedriver_linux32.zip
 cp chromedriver /usr/bin/chromedriver
 chmod 777 /usr/bin/chromedriver
 
 If you are using 64 bit Kali Linux (run uname -r to find out)
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+dpkg -i google-chrome-stable_current_amd64.deb
 
-wget https://chromedriver.googlecode.com/files/chromedriver_linux64_23.0.1240.0.zip
-unzip chromedriver_linux64_23.0.1240.0.zip
+wget http://chromedriver.storage.googleapis.com/2.14/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
 cp chromedriver /usr/bin/chromedriver
 chmod 777 /usr/bin/chromedriver
 
