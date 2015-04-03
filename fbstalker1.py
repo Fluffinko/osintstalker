@@ -1560,7 +1560,7 @@ def parseVideosBy(html):
 		r = re.compile('href="(.*?)&amp;')
 		m = r.search(str(x))
 		if m:
-			filename = str(m.group(1)).replace("https://www.facebook.com/photo.php?v=","v_")
+			filename = str(m.group(1)).replace("https://www.facebook.com/video.php?v=","v_")
 			filename = filename+".html"
 			url = m.group(1)
 			if not os.path.lexists(filename):
