@@ -5,10 +5,12 @@ import zlib
 import zipfile
 import sys
 import re
+import time
 import datetime
 import operator
 import sqlite3
 import os
+import locale
 from datetime import datetime
 from datetime import date
 import pytz 
@@ -24,9 +26,7 @@ from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
-import time,re,sys
 from selenium.webdriver.common.keys import Keys
-import datetime
 from bs4 import BeautifulSoup
 from StringIO import StringIO
 
