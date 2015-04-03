@@ -2006,16 +2006,18 @@ def showhelp():
 	print "	MMMMMMMMMIMMMMMMMMMMMMMMMMMM8IMMMMMMMMMM"
 
 	print """
+	
 	#####################################################
-	#                  fbStalker.py                 #
-	#               [Trustwave Spiderlabs]              #
+	#                  fbStalker.py                     #
+	#               [by Trustwave Spiderlabs]	    #
+	#		[modified by Fluffinko  ]           #
 	#####################################################
 	Usage: python fbStalker.py [OPTIONS]
 
 	[OPTIONS]
 
-	-user   [Facebook Username]
-	-report [Filename]
+	-user [Facebook Username] [Filename of report]
+	example: fbStalker.py -user test reportname
 	"""
 
 if __name__ == '__main__':
