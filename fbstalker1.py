@@ -2017,7 +2017,7 @@ def showhelp():
 	[OPTIONS]
 
 	-user [Facebook Username] [Filename of report]
-	example: fbStalker.py -user test reportname
+	exaplme: fbStalker.py -user test reportname
 	"""
 
 if __name__ == '__main__':
