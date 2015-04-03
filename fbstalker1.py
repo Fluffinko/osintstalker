@@ -523,7 +523,7 @@ def parseTimeline(html,username):
 					if len(tlDateTimeLoc[1].text)>0:
 						print "[*] Location of Post: "+unicode(tlDateTimeLoc[1].text)
 					if len(tlDateTimeLoc[2].text)>0:
-						print "[*] Device: "+str(tlDateTimeLoc[2].text)
+						print "[*] Device: "+unicode(tlDateTimeLoc[2].text)
 				except IndexError:
 					continue	
 
