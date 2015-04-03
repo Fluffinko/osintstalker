@@ -35,8 +35,11 @@ sudo apt-get install python-setuptools
 sudo apt-get install python-pip
 sudo pip install pygraphml pytz tzlocal termcolor selenium requests --upgrade beautifulsoup4 
 
+wget https://github.com/Fluffinko/osintstalker/raw/master/fbstalker1.py
 
-Edit fbstalker.py and update facebook_username (same as email address) and facebook_password.
+vi fbstalker1.py
+
+Edit fbstalker.py and update facebook_username (same as email address) and facebook_password and API key
 
 Run python fbstalker.py -user [facebook target username]
 
